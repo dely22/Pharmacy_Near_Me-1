@@ -36,7 +36,7 @@
                 <div class="col-lg-6 col-12">
                     <div class="about-left">
                         <div class="section-title align-left">
-                            <span class="wow fadeInDown" data-wow-delay=".2s">ماذا نقدم </span>
+                            <span class="wow fadeInDown heading" data-wow-delay=".2s">ماذا نقدم </span>
                             <h2 class="wow fadeInUp" data-wow-delay=".4s">موقع يلبي تطلعاتك </h2>
                             <p class="wow fadeInUp" data-wow-delay=".6s">علاجي هو موقع وسيط يربط بين الصيدلية ك مقدم خدمة وبين المستخدم اللذي يتطلع للحصول على خدمة من الصيدلية يمكنك الاطلاع على التفاصيل ضمن الفئة التي تنمتمي اليها في الأسفل  ا </p>
                         </div>

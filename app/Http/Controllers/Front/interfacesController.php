@@ -49,4 +49,8 @@ class interfacesController extends Controller
     {
         return view('front.404');
     }
+    public function deteiles()
+    {
+        return view('front.phardeteiles');
+    }
 }

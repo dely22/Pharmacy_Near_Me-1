@@ -40,9 +40,9 @@ Route::get('/about', [interfacesController::class, 'about'])->name('about');
 Route::get('/contact', [interfacesController::class, 'contact'])->name('contact');
 Route::get('/confirm', [interfacesController::class, 'confirm'])->name('confirm');
 Route::get('/404', [interfacesController::class, 'notFound'])->name('404');
+Route::get('/pharmacy-deteiles', [interfacesController::class, 'deteiles'])->name('deteiles');
 
-// route For test
-// Route::get('/userProfile', [interfacesController::class, 'userProfile'])->name('userProfile');
+
 
 
 // Register
