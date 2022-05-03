@@ -38,7 +38,7 @@
 					<div class="col-lg-4 col-md-6 col-4">
 						<div class="single-pharmacy col-12 shadow p-3 bg-white radius">
 							<div class="product-img col-12">
-								<img src="Front/assets/images/product/pharma.jpg" class="radius col-12 " alt="">
+								<img src="Front/assets/images/pharmacy/pharma.jpg" class="radius col-12 " alt="">
 							</div>
 
 							<div class="pharmacy-content ">
@@ -62,7 +62,7 @@
 					<div class="col-lg-4 col-md-6 col-4">
 						<div class="single-pharmacy col-12 shadow p-3 bg-white radius">
 							<div class="product-img col-12">
-								<img src="Front/assets/images/product/pharma.jpg" class="radius col-12 " alt="">
+								<img src="Front/assets/images/pharmacy/pharma.jpg" class="radius col-12 " alt="">
 							</div>
 
 							<div class="pharmacy-content ">
@@ -85,7 +85,7 @@
 						<div class="col-lg-4 col-md-6 col-4">
 						<div class="single-pharmacy col-12 shadow p-3 bg-white radius">
 							<div class="product-img col-12">
-								<img src="Front/assets/images/product/pharma.jpg" class="radius col-12 " alt="">
+								<img src="Front/assets/images/pharmacy/pharma.jpg" class="radius col-12 " alt="">
 							</div>
 
 							<div class="pharmacy-content ">
@@ -108,7 +108,7 @@
 						<div class="col-lg-4 col-md-6 col-4">
 						<div class="single-pharmacy col-12 shadow p-3 bg-white radius">
 							<div class="product-img col-12">
-								<img src="Front/assets/images/product/pharma.jpg" class="radius col-12 " alt="">
+								<img src="Front/assets/images/pharmacy/pharma.jpg" class="radius col-12 " alt="">
 							</div>
 
 							<div class="pharmacy-content ">
@@ -234,8 +234,8 @@
 
     {{-- Forms --}}
     <section>
-        <h3 class="heading">احرص علة متابعة كل جديد على منصتنا للاستفادة من خدماتنا</h3>
-        <div class="d-flex justify-content-between">
+        <h3 class="heading">احرص على متابعة كل جديد على منصتنا للاستفادة من خدماتنا</h3>
+        <div class="d-flex justify-content-center">
 
             <div class="container-fluid radius " style=" margin-block-end: 50px;direction: rtl">
                 <div class="" style=" ">

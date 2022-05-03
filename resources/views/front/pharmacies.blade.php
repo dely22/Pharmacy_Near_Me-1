@@ -53,7 +53,7 @@
 											<div class="single-pharmacylist-view">
 												<div class="pharmacy-img ">
 													<a href="product-details.html">
-														<img src="Front/assets/images/product/pharma.jpg" alt="">
+														<img src="Front/assets/images/pharmacy/pharma.jpg" alt="">
 													</a>
 												</div>
 
@@ -76,7 +76,7 @@
                                                 <div class="single-pharmacylist-view">
                                                     <div class="pharmacy-img ">
                                                         <a href="product-details.html">
-                                                            <img src="Front/assets/images/product/pharma.jpg" alt="">
+                                                            <img src="Front/assets/images/pharmacy/pharma.jpg" alt="">
                                                         </a>
                                                     </div>
 
@@ -107,7 +107,7 @@
 											<div class="single-pharmacy">
 												<div class="pharmacy-img">
 													<a href="product-details.html">
-														<img src="Front/assets/images/product/pharma.jpg" alt="">
+														<img src="Front/assets/images/pharmacy/pharma.jpg" alt="">
 													</a>
 												</div>
 
@@ -130,7 +130,7 @@
 											<div class="single-pharmacy">
 												<div class="pharmacy-img">
 													<a href="product-details.html">
-														<img src="Front/assets/images/product/pharma.jpg" alt="">
+														<img src="Front/assets/images/pharmacy/pharma.jpg" alt="">
 													</a>
 												</div>
 
@@ -153,7 +153,7 @@
 											<div class="single-pharmacy">
 												<div class="pharmacy-img">
 													<a href="product-details.html">
-														<img src="Front/assets/images/product/pharma.jpg" alt="">
+														<img src="Front/assets/images/pharmacy/pharma.jpg" alt="">
 													</a>
 												</div>
 
@@ -176,7 +176,7 @@
 											<div class="single-pharmacy">
 												<div class="pharmacy-img">
 													<a href="product-details.html">
-														<img src="Front/assets/images/product/pharma.jpg" alt="">
+														<img src="Front/assets/images/pharmacy/pharma.jpg" alt="">
 													</a>
 												</div>
 
@@ -261,7 +261,7 @@
 								<h3 class="mb-30">اعلانات</h3>
 								<div class="image">
 									<a href="javascript:void(0)" class="d-block">
-										<img src="Front/assets/images/product/ad-img.jpg" alt="" class="w-100">
+										<img src="Front/assets/images/pharmacy/ad-img.jpg" alt="" class="w-100">
 									</a>
 								</div>
 							</div>

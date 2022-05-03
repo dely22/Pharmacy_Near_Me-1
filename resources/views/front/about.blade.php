@@ -93,7 +93,7 @@
                 </div>
                 <!-- <div class="col-lg-6 col-12">
                     <div class="about-right wow fadeInRight" data-wow-delay=".4s">
-                        <img src="assets/images/product/pharma.jpg" alt="#">
+                        <img src="assets/images/pharmacy/pharma.jpg" alt="#">
                     </div>
                 </div> -->
             </div>
