@@ -3,28 +3,28 @@
 
 @section('content')
     <!--====== BANNER PART START ======-->
-<section class="banner-area bg_cover">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="banner-content">
-                    <h1 class="text-white">جميع صيدليات علاجي</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{ route('index') }}"> الرئيسية</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">  الصيدليات  </li>
-                        </ol>
-                    </nav>
+    <section class="banner-area bg_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner-content">
+                        <h1 class="text-white">جميع صيدليات علاجي</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="{{ route('index') }}"> الرئيسية</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">  الصيدليات  </li>
+                            </ol>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--====== BANNER PART END ======-->
+    </section>
+    <!--====== BANNER PART END ======-->
 
-<!-- Search Pharmacy section start -->
-    @include('includes.FrontSearch')
-<!-- Search Pharmacy section ends -->
+    <!-- Search Pharmacy section start -->
+        @include('includes.FrontSearch')
+    <!-- Search Pharmacy section ends -->
 
 
 	<!--====== PHARMACIES PART START ======-->
@@ -53,7 +53,7 @@
 											<div class="single-pharmacylist-view">
 												<div class="pharmacy-img ">
 													<a href="product-details.html">
-														<img src="assets/images/product/pharma.jpg" alt="">
+														<img src="Front/assets/images/product/pharma.jpg" alt="">
 													</a>
 												</div>
 
@@ -76,7 +76,7 @@
                                                 <div class="single-pharmacylist-view">
                                                     <div class="pharmacy-img ">
                                                         <a href="product-details.html">
-                                                            <img src="assets/images/product/pharma.jpg" alt="">
+                                                            <img src="Front/assets/images/product/pharma.jpg" alt="">
                                                         </a>
                                                     </div>
 
@@ -107,7 +107,7 @@
 											<div class="single-pharmacy">
 												<div class="pharmacy-img">
 													<a href="product-details.html">
-														<img src="assets/images/product/pharma.jpg" alt="">
+														<img src="Front/assets/images/product/pharma.jpg" alt="">
 													</a>
 												</div>
 
@@ -130,7 +130,7 @@
 											<div class="single-pharmacy">
 												<div class="pharmacy-img">
 													<a href="product-details.html">
-														<img src="assets/images/product/pharma.jpg" alt="">
+														<img src="Front/assets/images/product/pharma.jpg" alt="">
 													</a>
 												</div>
 
@@ -153,7 +153,7 @@
 											<div class="single-pharmacy">
 												<div class="pharmacy-img">
 													<a href="product-details.html">
-														<img src="assets/images/product/pharma.jpg" alt="">
+														<img src="Front/assets/images/product/pharma.jpg" alt="">
 													</a>
 												</div>
 
@@ -176,7 +176,7 @@
 											<div class="single-pharmacy">
 												<div class="pharmacy-img">
 													<a href="product-details.html">
-														<img src="assets/images/product/pharma.jpg" alt="">
+														<img src="Front/assets/images/product/pharma.jpg" alt="">
 													</a>
 												</div>
 
@@ -261,7 +261,7 @@
 								<h3 class="mb-30">اعلانات</h3>
 								<div class="image">
 									<a href="javascript:void(0)" class="d-block">
-										<img src="assets/images/product/ad-img.jpg" alt="" class="w-100">
+										<img src="Front/assets/images/product/ad-img.jpg" alt="" class="w-100">
 									</a>
 								</div>
 							</div>
@@ -287,8 +287,6 @@
 		</div>
 	</section>
 	<!--====== PHARMACIES PART END ======-->
-
-
 
 
 
