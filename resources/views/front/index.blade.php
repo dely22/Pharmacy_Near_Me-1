@@ -232,5 +232,83 @@
 	<!--====== SERVICE PART ENDS ======-->
 
 
+    {{-- Forms --}}
+    <section>
+        <h3 class="heading">احرص علة متابعة كل جديد على منصتنا للاستفادة من خدماتنا</h3>
+        <div class="d-flex justify-content-between">
+
+            <div class="container-fluid radius " style=" margin-block-end: 50px;direction: rtl">
+                <div class="" style=" ">
+                    <div class="radius d-flex justify-content-center">
+                        <div class="col-md-6 col-sm-12 shadow-lg p-3 bg-light">
+                            <div class="text-center">
+                                <h3 class="heading fs-1">قدم طلب لنشر اعلانك في المنصة
+                                    </h3>
+                            </div>
+                            <form action="">
+                                <div class="p-3">
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text rounded" style="background-color: var(--main-color)"><i
+                                                class="bi bi-person-plus-fill text-white"></i></span>
+                                        <input type="text" class="form-control rounded" placeholder="الإسم الرباعي">
+                                    </div>
+                                    <div class="input-group mb-3 rounded">
+                                        <span class="input-group-text rounded"style="background-color: var(--main-color)"><i
+                                                class="bi bi-envelope-fill text-white align-content-end"></i></span>
+                                        <input type="email" class=" rounded form-control"style="text-align:right" placeholder="البريدالالكتروني">
+                                    </div>
+
+                                    <div class="input-group mb-3 rounded">
+                                        <span class="input-group-text rounded"style="background-color: var(--main-color)"><i
+                                                class="bi bi-telephone-fill text-white align-content-end"></i></span>
+                                        <input type="email" class=" rounded form-control"style="text-align:right" placeholder="رقم الهاتف ">
+                                    </div>
+
+                                    <button class="btn-submit radius text-center p-2 col-12 mt-2" type="submit">
+                                        تقديم طلب
+                                    </button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid radius " style=" margin-block-end: 50px;direction: rtl">
+
+                <div class="" style="">
+                    <div class="radius d-flex justify-content-center">
+                        <div class="col-md-6 col-sm-12 shadow-lg p-3 bg-light">
+                            <div class="text-center">
+                                <h3 class="heading fs-1">ادخل بياناتك للإشتراك في<span> اخبار المنصة</span></h3>
+                            </div>
+                            <form action="">
+                                <div class="p-5">
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text rounded" style="background-color: var(--main-color)"><i
+                                                class="bi bi-person-plus-fill text-white"></i></span>
+                                        <input type="text" class="form-control rounded" placeholder="الإسم الرباعي">
+                                    </div>
+                                    <div class="input-group mb-3 rounded">
+                                        <span class="input-group-text rounded"style="background-color: var(--main-color)"><i
+                                                class="bi bi-envelope-fill text-white align-content-end"></i></span>
+                                        <input type="email" class=" rounded form-control"style="text-align:right" placeholder="البريدالالكتروني">
+                                    </div>
+
+                                    <button class="btn-submit radius text-center p-2 col-12 mt-2" type="submit">
+                                        اشتراك
+                                    </button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 
     @stop
