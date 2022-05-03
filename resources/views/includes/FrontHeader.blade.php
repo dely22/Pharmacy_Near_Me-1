@@ -1,15 +1,15 @@
 
     <!--====== HEADER PART START ======-->
 
-<header class="header_area">
+<header class="header_area shadow" style="direction: rtl;">
     <div id="header_navbar" class="header_navbar " style="background-color: white; ">
         <div class="container position-relative">
             <div class="row align-items-center">
                 <div class="col-xl-12">
                     <nav class="navbar navbar-expand-lg dir" >
-                        <a class="navbar-brand" href="#">
+                       <h1 class=""> <a class="navbar-brand" href="#">
                             علاجي
-                        </a>
+                        </a></h1>
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul id="nav" class="navbar-nav">
                                 <li class="nav-item">

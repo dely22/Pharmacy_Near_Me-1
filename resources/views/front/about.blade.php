@@ -5,7 +5,7 @@
 
 
     <!--====== HERO PART START ======-->
-	<section class="banner-area bg_cover">
+	<section class="banner-area bg_cover" style="direction: rtl;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -30,7 +30,7 @@
 
 
     <!-- Start About Us Area -->
-    <section class="about-us section p-4 mt-4">
+    <section class="about-us section p-4 mt-4" style="direction: rtl;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">

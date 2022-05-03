@@ -1,5 +1,5 @@
 <!--====== SEARCH PART START ======-->
-<div class="search-area">
+<div class="search-area" style="direction: rtl;">
 <div class="container">
     <div class="search-wrapper">
         <form action="#">

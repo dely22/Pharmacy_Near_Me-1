@@ -5,7 +5,7 @@
 
     <!--====== HERO PART START ======-->
 
-	<section id="home" class="hero-area bg_cover">
+	<section id="home" class="hero-area bg_cover" style="direction: rtl;">
 		<div class="container">
 			<div class="row">
 				<div class="mx-auto col-lg-9 col-xl-9 col-md-10">
@@ -26,9 +26,123 @@
 
 	<!--====== SEARCH PART END ======-->
 
+
+    <!--====== PHARMACY SLIDER PART START ======-->
+	<div class="feature-pharmacy-area bg_cover" >
+		<div class="container">
+
+			<h3 class="heading"><span>علاجي</span> صيدليات   </h3>
+			<div class="pharmacy-carousel-wrapper">
+				<div class="row feature-pharmacy-carousel">
+
+					<div class="col-lg-4 col-md-6 col-4">
+						<div class="single-pharmacy col-12 shadow p-3 bg-white radius">
+							<div class="product-img col-12">
+								<img src="Front/assets/images/product/pharma.jpg" class="radius col-12 " alt="">
+							</div>
+
+							<div class="pharmacy-content ">
+
+								<ul class="address">
+									<h3 class="name p-2" style="text-align: right;">
+									<a href="pharmacy-details">صيدلية ياسين
+                                        <i class="lni lni-user  p-2"></i>  </a></h3>
+									<li style="text-align: right;" class="pr-4">
+										<a href="javascript:void(0)" > تعز المسبح
+											<i class="lni lni-map-marker p-2"></i></a>
+									</li>
+								</ul>
+								<div class="pharmacy-bottom">
+									<a href="javascript:void(0)" class="main-btn col-12"><i class="lni lni-checkmark-circle"></i> تقديم طلب</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-4">
+						<div class="single-pharmacy col-12 shadow p-3 bg-white radius">
+							<div class="product-img col-12">
+								<img src="Front/assets/images/product/pharma.jpg" class="radius col-12 " alt="">
+							</div>
+
+							<div class="pharmacy-content ">
+
+								<ul class="address">
+									<h3 class="name p-2" style="text-align: right;">
+									<a href="pharmacy-details">صيدلية ياسين
+                                        <i class="lni lni-user  p-2"></i>  </a></h3>
+									<li style="text-align: right;" class="pr-4">
+										<a href="javascript:void(0)" > تعز المسبح
+											<i class="lni lni-map-marker p-2"></i></a>
+									</li>
+								</ul>
+								<div class="pharmacy-bottom">
+									<a href="javascript:void(0)" class="main-btn col-12"><i class="lni lni-checkmark-circle"></i> تقديم طلب</a>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-lg-4 col-md-6 col-4">
+						<div class="single-pharmacy col-12 shadow p-3 bg-white radius">
+							<div class="product-img col-12">
+								<img src="Front/assets/images/product/pharma.jpg" class="radius col-12 " alt="">
+							</div>
+
+							<div class="pharmacy-content ">
+
+								<ul class="address">
+									<h3 class="name p-2" style="text-align: right;">
+									<a href="pharmacy-details">صيدلية ياسين
+                                        <i class="lni lni-user  p-2"></i>  </a></h3>
+									<li style="text-align: right;" class="pr-4">
+										<a href="javascript:void(0)" > تعز المسبح
+											<i class="lni lni-map-marker p-2"></i></a>
+									</li>
+								</ul>
+								<div class="pharmacy-bottom">
+									<a href="javascript:void(0)" class="main-btn col-12"><i class="lni lni-checkmark-circle"></i> تقديم طلب</a>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-lg-4 col-md-6 col-4">
+						<div class="single-pharmacy col-12 shadow p-3 bg-white radius">
+							<div class="product-img col-12">
+								<img src="Front/assets/images/product/pharma.jpg" class="radius col-12 " alt="">
+							</div>
+
+							<div class="pharmacy-content ">
+
+								<ul class="address">
+									<h3 class="name p-2" style="text-align: right;">
+									<a href="pharmacy-details">صيدلية ياسين
+                                        <i class="lni lni-user  p-2"></i>  </a></h3>
+									<li style="text-align: right;" class="pr-4">
+										<a href="javascript:void(0)" > تعز المسبح
+											<i class="lni lni-map-marker p-2"></i></a>
+									</li>
+								</ul>
+								<div class="pharmacy-bottom">
+									<a href="javascript:void(0)" class="main-btn col-12"><i class="lni lni-checkmark-circle"></i> تقديم طلب</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--====== PHARMACY SLIDER PART ENDS ======-->
+
+
+
+
 	<!--====== SERVICE PART START ======-->
 
-        <section class="service-area pt-140 pb-110">
+        <section class="service-area pt-140 pb-110" style="direction: rtl;">
             <div class="container">
                 <div class="row">
                     <div class="mx-auto col-xl-6 col-lg-7 col-md-10">
@@ -116,6 +230,7 @@
         </section>
 
 	<!--====== SERVICE PART ENDS ======-->
+
 
 
     @stop

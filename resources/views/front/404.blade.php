@@ -1,9 +1,9 @@
-@extends('layouts.masterFront')
+ @extends('layouts.masterFront')
 
     @section('content')
 
     <!--====== 404 PRODUCT PART START ======-->
-	<section class="page-404-wrapper">
+	<section class="page-404-wrapper pt-5" style="direction: rtl;">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">

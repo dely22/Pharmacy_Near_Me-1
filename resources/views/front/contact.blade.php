@@ -5,7 +5,7 @@
 
 
 	<!--====== HERO PART START ======-->
-	<section class="banner-area bg_cover">
+	<section class="banner-area bg_cover" style="direction: rtl;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -29,7 +29,7 @@
 	<!--====== SEARCH PART END ======-->
 
      <!-- Start Contact Area -->
-    <section id="contact-us" class="contact-us section pt-5 radius">
+    <section id="contact-us" class="contact-us section pt-5 radius" style="direction: rtl;">
         <div class="container">
             <div class="contact-head wow fadeInUp" data-wow-delay=".4s">
                 <div class="row p-2 m-1 shadow radius">

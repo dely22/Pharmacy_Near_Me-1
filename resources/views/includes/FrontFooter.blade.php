@@ -1,5 +1,5 @@
 <!--====== FOOTER PART START ======-->
-<footer class="footer-area col-12 shadow">
+<footer class="footer-area col-12 shadow" style="direction: rtl;">
     <div class="widget-wrapper">
         <div class="container">
             <div class="row">

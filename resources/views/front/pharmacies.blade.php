@@ -3,7 +3,7 @@
 
 @section('content')
     <!--====== BANNER PART START ======-->
-    <section class="banner-area bg_cover">
+    <section class="banner-area bg_cover" style="direction: rtl;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -28,7 +28,7 @@
 
 
 	<!--====== PHARMACIES PART START ======-->
-	<section class="pharmacy-area mt-5">
+	<section class="pharmacy-area mt-5" style="direction: rtl;">
 		<div class="container">
 			<!-- <div class="pharmacy-top box-style">
 				<div class="row align-items-center">
