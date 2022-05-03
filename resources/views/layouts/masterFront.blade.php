@@ -50,7 +50,7 @@
 			color: #fff;
 		} */
     </style>
-
+</head>
 <body>
 	<!--====== HEADER PART START ======-->
 

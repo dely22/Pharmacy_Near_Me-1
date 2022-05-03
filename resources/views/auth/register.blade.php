@@ -33,8 +33,8 @@
                                 <div class="card-body p-md-5 mx-md-4">
 
                                     <div class="text-center">
-                                        <img src="{{ asset('auth/images/1553191-673ab7.svg') }}"
-                                            style="width: 4empx;height: 6em;" alt="logo">
+                                        {{-- <img src="{{ asset('auth/images/1553191-673ab7.svg') }}"
+                                            style="width: 4empx;height: 6em;" alt="logo"> --}}
 
                                         <h2 class="heading" style=" letter-spacing: 0;"> <span>انشاء الحساب
                                             </span></h2>

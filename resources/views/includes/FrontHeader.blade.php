@@ -42,7 +42,7 @@
                                 </ul>
                             </li>  -->
                             <li>
-                                <a href="" class="main-btn mt-4 d-none mr-sm-2 d-md-block">دخول</a>
+                                <a href="{{ route('login') }}" class="main-btn mt-4 d-none mr-sm-2 d-md-block">دخول</a>
                             </li>
                         </ul>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
