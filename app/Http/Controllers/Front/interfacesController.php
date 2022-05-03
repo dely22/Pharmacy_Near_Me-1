@@ -45,4 +45,8 @@ class interfacesController extends Controller
     {
         return view('email.verify-email');
     }
+    public function notFound()
+    {
+        return view('front.404');
+    }
 }

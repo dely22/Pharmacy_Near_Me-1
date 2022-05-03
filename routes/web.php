@@ -39,6 +39,7 @@ Route::get('/ads', [interfacesController::class, 'ads'])->name('ads');
 Route::get('/about', [interfacesController::class, 'about'])->name('about');
 Route::get('/contact', [interfacesController::class, 'contact'])->name('contact');
 Route::get('/confirm', [interfacesController::class, 'confirm'])->name('confirm');
+Route::get('/404', [interfacesController::class, 'notFound'])->name('404');
 
 // route For test
 // Route::get('/userProfile', [interfacesController::class, 'userProfile'])->name('userProfile');
@@ -82,7 +83,7 @@ Route::group(['middleware' => 'auth'], function () {
 
     // Client Routes
     Route::group(['middleware' => ['role:client']], function () {
-        Route::get('/client/',[ClientController::class,'index'])->name('client-dashboard');
+        Route::get('/client/', [ClientController::class, 'index'])->name('client-dashboard');
 
         // Client Request
         Route::get('/client/rquests', [RequestController::class, 'index'])->name('client-requests');
@@ -113,7 +114,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::group(['middleware' => ['role:admin']], function () {
 
         // Admin Dashboard
-        Route::get('/_admin/', [AdminController::class,'index'])->name('admin-dashboard');
+        Route::get('/_admin/', [AdminController::class, 'index'])->name('admin-dashboard');
 
         Route::get('/_admin/pharmacies', [AdminController::class, 'showPharmacies'])->name('admin-pharmacies');
         Route::get('/_admin/users', [AdminController::class, 'showUsers'])->name('admin-users');
@@ -129,13 +130,13 @@ Route::group(['middleware' => 'auth'], function () {
 
     // Logout
     Route::get('/logout', [LogoutController::class, 'logout'])->name('logout');
-
-
 });
 
 Route::group(
     [
         'prefix' => LaravelLocalization::setLocale(),
-        'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
-    ], function(){ //...
-    });
+        'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
+    ],
+    function () { //...
+    }
+);

@@ -1975,14 +1975,14 @@ hero area css
   line-height: 55px;
 }
 
-.category-list-area .category-list-wrapper {
+.pharmacy-list-area .pharmacy-list-wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 -15px;
 }
 
-.category-list-area .category-list-wrapper .category-list-item a {
+.pharmacy-list-area .pharmacy-list-wrapper .pharmacy-list-item a {
   display: block;
   text-align: center;
   width: 210px;
@@ -1994,15 +1994,15 @@ hero area css
   box-shadow: 0px 3px 35px rgba(218, 222, 228, 0.3);
 }
 
-.category-list-area .category-list-wrapper .category-list-item a:hover {
+.pharmacy-list-area .pharmacy-list-wrapper .pharmacy-list-item a:hover {
   background-color: var(--main-color);
 }
 
-.category-list-area .category-list-wrapper .category-list-item a:hover .icon, .category-list-area .category-list-wrapper .category-list-item a:hover h3 {
+.pharmacy-list-area .pharmacy-list-wrapper .pharmacy-list-item a:hover .icon, .pharmacy-list-area .pharmacy-list-wrapper .pharmacy-list-item a:hover h3 {
   color: #fff;
 }
 
-.category-list-area .category-list-wrapper .category-list-item a .icon {
+.pharmacy-list-area .pharmacy-list-wrapper .pharmacy-list-item a .icon {
   font-size: 35px;
   margin-bottom: 10px;
   line-height: 1;
@@ -2010,113 +2010,113 @@ hero area css
   transition: all 0.3s ease-out 0s;
 }
 
-.category-list-area .category-list-wrapper .category-list-item a h3 {
+.pharmacy-list-area .pharmacy-list-wrapper .pharmacy-list-item a h3 {
   font-weight: 400;
   color: var(--main-color);
   transition: all 0.3s ease-out 0s;
 }
 
-.category-area {
+.pharmacy-area {
   position: relative;
   z-index: 1;
   margin-top: -80px;
 }
 
-.category-area .category-top {
+.pharmacy-area .pharmacy-top {
   padding: 10px 30px;
 }
 
-.category-area .category-top .left-wrapper .sorting {
+.pharmacy-area .pharmacy-top .left-wrapper .sorting {
   display: flex;
   align-items: center;
 }
 
-.category-area .category-top .left-wrapper .sorting label {
+.pharmacy-area .pharmacy-top .left-wrapper .sorting label {
   margin-right: 10px;
 }
 
-.category-area .category-top .left-wrapper .sorting select {
+.pharmacy-area .pharmacy-top .left-wrapper .sorting select {
   font-size: 14px;
   font-weight: 300;
   color: #7C869A;
   border-radius: var(--radius);
 }
 
-.category-area .category-top .left-wrapper .sorting .selectr-container {
+.pharmacy-area .pharmacy-top .left-wrapper .sorting .selectr-container {
   width: 200px;
 }
 
 @media (max-width: 767px) {
-  .category-area .category-top .left-wrapper .sorting .selectr-container {
+  .pharmacy-area .pharmacy-top .left-wrapper .sorting .selectr-container {
     max-width: calc(100% - 94px);
     width: 100%;
   }
 }
 
-.category-area .category-top .left-wrapper .sorting .selectr-selected {
+.pharmacy-area .pharmacy-top .left-wrapper .sorting .selectr-selected {
   border-radius: var(--radius);
 }
 
-.category-area .category-top .right-wrapper {
+.pharmacy-area .pharmacy-top .right-wrapper {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.category-area .category-top .right-wrapper .product-view-btns {
+.pharmacy-area .pharmacy-top .right-wrapper .pharmacy-view-btns {
   margin-right: 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .category-area .category-top .right-wrapper .product-view-btns {
+  .pharmacy-area .pharmacy-top .right-wrapper .pharmacy-view-btns {
     margin-right: 20px;
   }
 }
 
 @media (max-width: 767px) {
-  .category-area .category-top .right-wrapper .product-view-btns {
+  .pharmacy-area .pharmacy-top .right-wrapper .pharmacy-view-btns {
     margin-right: 10px;
     margin-top: 30px;
   }
 }
 
-.category-area .category-top .right-wrapper .product-view-btns li a {
+.pharmacy-area .pharmacy-top .right-wrapper .pharmacy-view-btnsli a {
   padding: 0 10px;
   color: var(--main-color);
 }
 
-.category-area .category-top .right-wrapper .product-view-btns li a.active {
+.pharmacy-area .pharmacy-top .right-wrapper .pharmacy-view-btnsli a.active {
   color: var(--main-color);
 }
 
-.category-area .category-top .right-wrapper form {
+.pharmacy-area .pharmacy-top .right-wrapper form {
   max-width: 300px;
   width: 100%;
   position: relative;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .category-area .category-top .right-wrapper form {
+  .pharmacy-area .pharmacy-top .right-wrapper form {
     max-width: 200px;
   }
 }
 
 @media (max-width: 767px) {
-  .category-area .category-top .right-wrapper form {
+  .pharmacy-area .pharmacy-top .right-wrapper form {
     margin: auto;
     margin-top: 30px;
     max-width: calc(100% - 94px);
   }
 }
 
-.category-area .category-top .right-wrapper form input {
+.pharmacy-area .pharmacy-top .right-wrapper form input {
   border: 1px solid rgba(124, 134, 154, 0.25);
   border-radius: var(--radius);
   margin-bottom: 0;
   padding: 14px 30px;
 }
 
-.category-area .category-top .right-wrapper form button {
+.pharmacy-area .pharmacy-top .right-wrapper form button {
   position: absolute;
   right: 25px;
   top: 16px;
@@ -2125,18 +2125,18 @@ hero area css
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .category-area .category-wrapper .left-wrapper .single-product .product-content {
+  .pharmacy-area .pharmacy-wrapper .left-wrapper .single-pharmacy.pharmacy-content {
     padding-left: 12px;
     padding-right: 12px;
   }
 }
 
-.category-area .category-wrapper .sidebar-wrapper .price-range .price-amount {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .price-range .price-amount {
   display: flex;
   justify-content: space-between;
 }
 
-.category-area .category-wrapper .sidebar-wrapper .price-range .price-amount .amount-input .amount {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .price-range .price-amount .amount-input .amount {
   border: none;
   color: var(--main-color);
   padding: 10px 0;
@@ -2145,15 +2145,15 @@ hero area css
   margin-bottom: 10px;
 }
 
-.category-area .category-wrapper .sidebar-wrapper .price-range .noUi-connect {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .price-range .noUi-connect {
   background: var(--main-color);
 }
 
-.category-area .category-wrapper .sidebar-wrapper .price-range .noUi-handle {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .price-range .noUi-handle {
   border-color: var(--main-color);
 }
 
-.category-area .category-wrapper .sidebar-wrapper .sidebar-category ul li a {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .sidebar-pharmacy ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2161,11 +2161,11 @@ hero area css
   margin-bottom: 15px;
 }
 
-.category-area .category-wrapper .sidebar-wrapper .sidebar-category ul li a:hover {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .sidebar-pharmacy ul li a:hover {
   color: var(--main-color);
 }
 
-.category-area .category-wrapper .sidebar-wrapper .sidebar-category ul li a span.right {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .sidebar-pharmacy ul li a span.right {
   width: 31px;
   height: 31px;
   border-radius: var(--radius);
@@ -2175,21 +2175,21 @@ hero area css
   background: #F5F7FC;
 }
 
-.category-area .category-wrapper .sidebar-wrapper .social {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .social {
   display: flex;
   flex-wrap: wrap;
 }
 
-.category-area .category-wrapper .sidebar-wrapper .social li {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .social li {
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-.category-area .category-wrapper .sidebar-wrapper .social li:last-child {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .social li:last-child {
   /* margin-right: 0; */
 }
 
-.category-area .category-wrapper .sidebar-wrapper .social li a {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .social li a {
   width: 55px;
   height: 55px;
   background: #fff;
@@ -2202,7 +2202,7 @@ hero area css
   font-size: 22px;
 }
 
-.category-area .category-wrapper .sidebar-wrapper .social li a:hover {
+.pharmacy-area .pharmacy-wrapper .sidebar-wrapper .social li a:hover {
   color: #fff;
   background: var(--main-color);
   box-shadow: 0px 3px 25px rgba(255, 107, 107, 0.3);
@@ -2217,7 +2217,7 @@ hero area css
   box-shadow: 0px 3px 35px rgba(218, 222, 228, 0.3);
 }
 
-.single-product {
+.single-pharmacy {
   border-radius: var(--radius);
   background: #fff;
   overflow: hidden;
@@ -2227,29 +2227,29 @@ hero area css
   box-shadow: 0px 3px 35px rgba(218, 222, 228, 0.3);
 }
 
-.single-product:hover {
+.single-pharmacy:hover {
   box-shadow: 0px 12px 35px rgba(218, 222, 228, 0.65);
 }
 
-.single-product .product-img {
+.single-pharmacy.pharmacy-img {
   position: relative;
 }
 
-.single-product .product-img a {
+.single-pharmacy.pharmacy-img a {
   display: block;
 }
 
-.single-product .product-img img {
+.single-pharmacy.pharmacy-img img {
   width: 100%;
 }
 
-.single-product .product-img .product-action {
+.single-pharmacy.pharmacy-img .product-action {
   position: absolute;
   right: 30px;
   top: 30px;
 }
 
-.single-product .product-img .product-action a {
+.single-pharmacy.pharmacy-img .product-action a {
   width: 30px;
   height: 30px;
   display: flex;
@@ -2262,12 +2262,12 @@ hero area css
   font-size: 14px;
 }
 
-.single-product .product-img .product-action a.share {
+.single-pharmacy.pharmacy-img .product-action a.share {
   background: #fff;
   color: var(--main-color);
 }
 
-.single-product .product-img a.badge {
+.single-pharmacy.pharmacy-img a.badge {
   font-size: 16px;
   color: #fff;
   background: var(--main-color);
@@ -2279,63 +2279,63 @@ hero area css
   border-radius: var(--radius);
 }
 
-.single-product .product-img a.badge.bottom {
+.single-pharmacy.pharmacy-img a.badge.bottom {
   bottom: 25px;
   top: auto;
 }
 
-.single-product .product-content {
+.single-pharmacy.pharmacy-content {
   padding: 20px 30px 25px;
 }
 
-.single-product .product-content .name {
+.single-pharmacy.pharmacy-content .name {
   margin-bottom: 10px;
 }
 
-.single-product .product-content .name:hover a {
+.single-pharmacy.pharmacy-content .name:hover a {
   color: var(--main-color);
 }
 
-.single-product .product-content .update {
+.single-pharmacy.pharmacy-content .update {
   font-weight: 300;
   margin-bottom: 15px;
 }
 
-.single-product .product-content .sort-des {
+.single-pharmacy.pharmacy-content .sort-des {
   margin-bottom: 20px;
 }
 
-.single-product .product-content .address {
+.single-pharmacy.pharmacy-content .address {
   display: flex;
   flex-wrap: wrap;
 }
 
-.single-product .product-content .address li {
+.single-pharmacy.pharmacy-content .address li {
   width: 50%;
   margin-bottom: 15px;
 }
 
-.single-product .product-content .address li a {
+.single-pharmacy.pharmacy-content .address li a {
   color: #7C869A;
 }
 
-.single-product .product-content .address li a:hover {
+.single-pharmacy.pharmacy-content .address li a:hover {
   color: var(--main-color);
 }
 
-.single-product .product-content .product-bottom {
+.single-pharmacy.pharmacy-content .pharmacy-bottom {
   border-top: 1px dotted rgba(124, 134, 154, 0.25);
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
 }
 
-.single-product .product-content .product-bottom .price {
+.single-pharmacy.pharmacy-content .pharmacy-bottom .price {
   font-weight: 600;
   color: var(--main-color);
 }
 
-.single-product .product-content .product-bottom a.link-ad {
+.single-pharmacy.pharmacy-content .pharmacy-bottom a.link-ad {
   padding: 7px 10px 5px;
   display: inline-block;
   border: 1px solid rgba(124, 134, 154, 0.25);
@@ -2344,70 +2344,70 @@ hero area css
   color: #7C869A;
 }
 
-.single-product .product-content .product-bottom a.link-ad:hover {
+.single-pharmacy.pharmacy-content .pharmacy-bottom a.link-ad:hover {
   color: #fff;
   background-color: var(--main-color);
   border-color: var(--main-color);
 }
 
-.single-product .product-content .product-bottom a.address-link {
+.single-pharmacy.pharmacy-content .pharmacy-bottom a.address-link {
   color: #7C869A;
 }
 
-.single-product .product-content .product-bottom a.address-link:hover {
+.single-pharmacy.pharmacy-content .pharmacy-bottom a.address-link:hover {
   color: var(--main-color);
 }
 
-.single-product .product-content .rating-wrapper {
+.single-pharmacy.pharmacy-content .rating-wrapper {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
   align-items: center;
 }
 
-.single-product .product-content .rating-wrapper .price {
+.single-pharmacy.pharmacy-content .rating-wrapper .price {
   font-size: 20px;
   font-weight: 600;
 }
 
-.single-product .product-content .rating-wrapper .price del {
+.single-pharmacy.pharmacy-content .rating-wrapper .price del {
   color: #7C869A;
 }
 
-.single-product .product-content .rating-wrapper .rating span {
+.single-pharmacy.pharmacy-content .rating-wrapper .rating span {
   color: var(--main-color);
 }
 
-.single-product .product-content .rating-wrapper .rating i {
+.single-pharmacy.pharmacy-content .rating-wrapper .rating i {
   color: var(--main-color);
   font-size: 14px;
 }
 
-.single-product.list-view {
+.single-pharmacy.list-view {
   display: flex;
 }
 
 @media (max-width: 767px) {
-  .single-product.list-view {
+  .single-pharmacy.list-view {
     flex-direction: column;
   }
 }
 
-.single-product.list-view .product-img {
+.single-pharmacy.list-view .pharmacy-img {
   width: 100%;
 }
 
-.single-product.list-view .product-img>a {
+.single-pharmacy.list-view .pharmacy-img>a {
   height: 100%;
 }
 
-.single-product.list-view .product-img>a img {
+.single-pharmacy.list-view .pharmacy-img>a img {
   height: 100%;
   object-position: center;
   object-fit: cover;
 }
 
-.single-product.list-view .product-content {
+.single-pharmacy.list-view .pharmacy-content {
   width: 100%;
 }
 
@@ -3526,7 +3526,7 @@ video css
   font-weight: 300;
 }
 
-.dashboard-area .dashboard-wrapper .table-wrapper table tbody tr td span.category {
+.dashboard-area .dashboard-wrapper .table-wrapper table tbody tr td span.pharmacy {
   color: #7C869A;
 }
 

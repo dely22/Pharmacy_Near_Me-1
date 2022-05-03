@@ -9,7 +9,7 @@
 				<div class="col-xl-12">
 					<div class="text-center content-404">
 						<div class="image mb-50">
-							<img src="assets/images/404/404-img.svg" alt="">
+							<img src="Front/assets/images/404/404-img.svg" alt="">
 						</div>
 						<h1>الصفحة ليست موجودة</h1>
 					</div>

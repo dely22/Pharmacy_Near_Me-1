@@ -60,6 +60,9 @@
 
 
 
+    @yield('content')
+
+
 	<!--====== FOOTER PART START ======-->
 	@include('includes.FrontFooter')
 	<!--====== FOOTER PART ENDS ======-->
@@ -70,25 +73,25 @@
 
 
 	<!--====== Bootstrap js ======-->
-	<script src="{{ asset('Frontassets/js/bootstrap.bundle-5.0.0.alpha-min.js')}}"></script>
+	<script src="{{ asset('Front/assets/js/bootstrap.bundle-5.0.0.alpha-min.js')}}"></script>
 
 	<!--====== Tiny slider js ======-->
-	<script src="{{ asset('Frontassets/js/tiny-slider.js')}}"></script>
+	<script src="{{ asset('Front/assets/js/tiny-slider.js')}}"></script>
 
 	<!--====== wow js ======-->
-	<script src="{{ asset('Front"assets/js/wow.min.js')}}"></script>
+	<script src="{{ asset('Front/assets/js/wow.min.js')}}"></script>
 
 	<!--====== glightbox js ======-->
-	<script src="{{ asset('Frontassets/js/glightbox.min.js')}}"></script>
+	<script src="{{ asset('Front/assets/js/glightbox.min.js')}}"></script>
 
 	<!--====== Selectr js ======-->
-	<script src="{{ asset('Front"assets/js/selectr.min.js')}}"></script>
+	<script src="{{ asset('Front/assets/js/selectr.min.js')}}"></script>
 
 	<!--====== Nouislider js ======-->
-	<script src="{{ asset('Frontassets/js/nouislider.js')}}"></script>
+	<script src="{{ asset('Front/assets/js/nouislider.js')}}"></script>
 
 	<!--====== Main js ======-->
-	<script src="{{ asset('Frontassets/js/main.js')}}"></script>
+	<script src="{{ asset('Front/assets/js/main.js')}}"></script>
 
 
 </body>
