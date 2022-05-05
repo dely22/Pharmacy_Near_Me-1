@@ -6,16 +6,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-3 col-sm-5 col-10">
                     <div class="search-input">
-                        <label for="keyword"><i class="lni lni-search-alt theme-color "></i></label>
-                        <input type="text" name="keyword" id="keyword" placeholder="اسم الصيدليه">
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-5 col-10">
-                    <div class="search-input">
                         <label for="location"><i class="lni lni-map-marker theme-color dir"></i></label>
                         <select name="location" id="location">
-                            <option value="none" selected disabled> المديريات </option>
+                            <option value="none" selected disabled> المحافظات </option>
                             <option value="none"> القاهرة</option>
                             <option value="none">المظفر</option>
 
@@ -33,6 +26,13 @@
 
                         </select>
 
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-5 col-10">
+                    <div class="search-input">
+                        <label for="keyword"><i class="lni lni-search-alt theme-color "></i></label>
+                        <input type="text" name="keyword" id="keyword" placeholder="اسم الصيدليه">
                     </div>
                 </div>
 

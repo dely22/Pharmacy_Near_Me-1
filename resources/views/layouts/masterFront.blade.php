@@ -48,6 +48,7 @@
         }
 		a{
 			text-decoration: none;
+            color: var(--main-color);
 		}
 		.heading {
             text-align: center;

@@ -7,9 +7,10 @@
             <div class="row align-items-center">
                 <div class="col-xl-12">
                     <nav class="navbar navbar-expand-lg dir" >
-                       <h1 class=""> <a class="navbar-brand" href="#">
-                            علاجي
-                        </a></h1>
+                        <a class="navbar-brand" href="#">
+                            <img src="Front/assets/images/about/logo-2.png" id="logo" alt="Logo">
+                        </a>
+
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul id="nav" class="navbar-nav">
                                 <li class="nav-item">
