@@ -1,5 +1,4 @@
 @import url('http://fonts.cdnfonts.com/css/tajawal?styles=19782,19779,19780,19781,19777,19778,19776');
-
 html {
     scroll-behavior: smooth;
 }
@@ -32,16 +31,13 @@ body {
 :root {
     --black: #333;
     --light-black: #777;
-
     --main-color: #2B547A;
     --hover-main: #4688C7;
     --secondary-color: #57ABFA;
     --hover-secondary: #A3D0FB;
-
     --bg-sec: #f6f4fa;
     --border: .2rem solid var(--main-color);
     --radius: .5rem;
-
     --font-type: 'Tajawal', sans-serif;
     --fs-p: 1.7rem;
     --fs-span: 1rem;
@@ -151,7 +147,8 @@ h6 {
     font-size: 16px;
 }
 
-ul, ol {
+ul,
+ol {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
@@ -243,7 +240,9 @@ textarea:focus {
     outline: none;
 }
 
+
 /*===== All Button Style =====*/
+
 .main-btn {
     display: inline-block;
     text-align: center;
@@ -288,7 +287,9 @@ textarea:focus {
     width: 100%;
 }
 
+
 /*===== All Section Title Style =====*/
+
 .section-title h1 {
     font-size: 45px;
     line-height: 55px;
@@ -302,7 +303,9 @@ textarea:focus {
     margin-bottom: 60px;
 }
 
+
 /*===== All Preloader Style =====*/
+
 .preloader {
     /* Body Overlay */
     position: fixed;
@@ -395,6 +398,7 @@ textarea:focus {
     animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
+
 /* Preloader Animations */
 
 @keyframes ytp-spinner-linspin {
@@ -407,31 +411,24 @@ textarea:focus {
     12.5% {
         transform: rotate(135deg);
     }
-
     25% {
         transform: rotate(270deg);
     }
-
     37.5% {
         transform: rotate(405deg);
     }
-
     50% {
         transform: rotate(540deg);
     }
-
     62.5% {
         transform: rotate(675deg);
     }
-
     75% {
         transform: rotate(810deg);
     }
-
     87.5% {
         transform: rotate(945deg);
     }
-
     to {
         transform: rotate(1080deg);
     }
@@ -441,11 +438,9 @@ textarea:focus {
     0% {
         transform: rotate(130deg);
     }
-
     50% {
         transform: rotate(-5deg);
     }
-
     to {
         transform: rotate(130deg);
     }
@@ -455,11 +450,9 @@ textarea:focus {
     0% {
         transform: rotate(-130deg);
     }
-
     50% {
         transform: rotate(5deg);
     }
-
     to {
         transform: rotate(-130deg);
     }
@@ -1185,10 +1178,14 @@ textarea:focus {
     padding-bottom: 225px;
 }
 
+
 /*===========================
     02.HEADER css
 ===========================*/
+
+
 /*===== NAVBAR =====*/
+
 .header_navbar {
     position: absolute;
     top: 0;
@@ -1198,9 +1195,6 @@ textarea:focus {
     border-bottom: 1px solid rgba(124, 134, 154, 0.3);
     transition: all 0.3s ease-out 0s;
 }
-
-
-
 
 .sticky {
     position: fixed;
@@ -1252,16 +1246,22 @@ textarea:focus {
 }
 
 .navbar-brand img {
-    width: 150px;
+    /* width: 150px; */
 }
+
 
 /* .navbar-brand {
     padding: 0;
     min-width: fit-content;
     /* color: var(--main-color); */
+
+
 /* max-width: 155px; */
+
+
 /* font-weight: 700;
     font-size: 25px; */
+
 
 /* } */
 
@@ -1431,6 +1431,7 @@ textarea:focus {
     color: var(--hover-main);
 }
 
+
 /* .navbar-nav .nav-item a.active::after {
   width: 100%;
 } */
@@ -1575,23 +1576,27 @@ textarea:focus {
     }
 }
 
-.navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
+.navbar-nav .nav-item .sub-menu li a.active,
+.navbar-nav .nav-item .sub-menu li a:hover {
     padding-left: 25px;
     color: var(--main-color);
 }
 
-.navbar-nav .nav-item .sub-menu li a.active::after, .navbar-nav .nav-item .sub-menu li a:hover::after {
+.navbar-nav .nav-item .sub-menu li a.active::after,
+.navbar-nav .nav-item .sub-menu li a:hover::after {
     width: 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
+    .navbar-nav .nav-item .sub-menu li a.active,
+    .navbar-nav .nav-item .sub-menu li a:hover {
         padding-left: 0;
     }
 }
 
 @media (max-width: 767px) {
-    .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
+    .navbar-nav .nav-item .sub-menu li a.active,
+    .navbar-nav .nav-item .sub-menu li a:hover {
         padding-left: 0;
     }
 }
@@ -1732,14 +1737,12 @@ textarea:focus {
     .header-btn .main-btn.account-btn {
         padding: 5px 11px;
     }
-
     .header-btn .main-btn {
         font-size: 16px;
         padding: 10px 30px;
         font-weight: 400;
         margin-top: 1px;
     }
-
     .header-btn .main-btn.account-btn::after {
         content: '';
         position: absolute;
@@ -1770,7 +1773,8 @@ textarea:focus {
     background-color: var(--main-color);
 }
 
-.sticky .navbar-nav .nav-item a.active, .sticky .navbar-nav .nav-item a:hover {
+.sticky .navbar-nav .nav-item a.active,
+.sticky .navbar-nav .nav-item a:hover {
     color: var(--main-color);
 }
 
@@ -1826,9 +1830,11 @@ textarea:focus {
     visibility: visible;
 }
 
+
 /*============================
 hero area css
 ============================= */
+
 .hero-area {
     /* background-image: url("../images/hero/hero-bg.jpg"); */
     position: relative;
@@ -1926,7 +1932,8 @@ hero area css
     transform: translateY(-50%);
 }
 
-.search-area .search-wrapper form input, .search-area .search-wrapper form select {
+.search-area .search-wrapper form input,
+.search-area .search-wrapper form select {
     width: 100%;
     background: #fff;
     border-radius: var(--radius);
@@ -1984,7 +1991,8 @@ hero area css
     background-color: var(--main-color);
 }
 
-.pharmacy-list-area .pharmacy-list-wrapper .pharmacy-list-item a:hover .icon, .pharmacy-list-area .pharmacy-list-wrapper .pharmacy-list-item a:hover h3 {
+.pharmacy-list-area .pharmacy-list-wrapper .pharmacy-list-item a:hover .icon,
+.pharmacy-list-area .pharmacy-list-wrapper .pharmacy-list-item a:hover h3 {
     color: #fff;
 }
 
@@ -2720,7 +2728,8 @@ hero area css
     }
 }
 
-.product-details-area .product-details-wrapper .review-wrapper .review-body .add-review-wrapper .review-form input, .product-details-area .product-details-wrapper .review-wrapper .review-body .add-review-wrapper .review-form textarea {
+.product-details-area .product-details-wrapper .review-wrapper .review-body .add-review-wrapper .review-form input,
+.product-details-area .product-details-wrapper .review-wrapper .review-body .add-review-wrapper .review-form textarea {
     border-color: rgba(124, 134, 154, 0.6);
     border-radius: var(--radius);
     margin-top: 8px;
@@ -2738,9 +2747,11 @@ hero area css
     box-shadow: none;
 }
 
+
 /*============================
 Service css
 ============================= */
+
 .service-area .single-service {
     border-radius: var(--radius);
     background: #fff;
@@ -2761,7 +2772,8 @@ Service css
     color: #fff;
 }
 
-.service-area .single-service:hover .service-content h3, .service-area .single-service:hover .service-content p {
+.service-area .single-service:hover .service-content h3,
+.service-area .single-service:hover .service-content p {
     color: #fff;
 }
 
@@ -2878,9 +2890,11 @@ Service css
     border: none;
 }
 
+
 /*============================
 testimonial css
 ============================= */
+
 .testimonial-area .testimonial-wrapper {
     position: relative;
     padding-bottom: 70px;
@@ -2963,9 +2977,11 @@ testimonial css
     transform: scale(1.25);
 }
 
+
 /*============================
 video css
 ============================= */
+
 .video-area .video-wrapper {
     background-image: url("../images/video/video-bg.jpg");
     position: relative;
@@ -3019,11 +3035,9 @@ video css
     0% {
         transform: scale(1);
     }
-
     50% {
         transform: scale(1.5);
     }
-
     100% {
         transform: scale(1);
     }
@@ -3305,15 +3319,18 @@ video css
     transition: all 0.3s ease-out 0s;
 }
 
-.dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a.active, .dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a:hover {
+.dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a.active,
+.dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a:hover {
     background: #F5F7FC;
 }
 
-.dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a.active::before, .dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a:hover::before {
+.dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a.active::before,
+.dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a:hover::before {
     background: var(--main-color);
 }
 
-.dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a.active i, .dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a:hover i {
+.dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a.active i,
+.dashboard-area .left-sidebar-wrapper .sidebar-menu ul li a:hover i {
     color: var(--main-color);
 }
 
@@ -3345,7 +3362,8 @@ video css
     margin-bottom: 5px;
 }
 
-.dashboard-area .dashboard-wrapper .cards-wrapper .ads-btn:hover, .dashboard-area .dashboard-wrapper .cards-wrapper .ads-btn.active {
+.dashboard-area .dashboard-wrapper .cards-wrapper .ads-btn:hover,
+.dashboard-area .dashboard-wrapper .cards-wrapper .ads-btn.active {
     background: var(--main-color);
     color: #fff;
 }
@@ -3382,7 +3400,8 @@ video css
     color: var(--main-color);
 }
 
-.dashboard-area .dashboard-wrapper .cards-wrapper .single-card:hover .text h5, .dashboard-area .dashboard-wrapper .cards-wrapper .single-card:hover .text p {
+.dashboard-area .dashboard-wrapper .cards-wrapper .single-card:hover .text h5,
+.dashboard-area .dashboard-wrapper .cards-wrapper .single-card:hover .text p {
     color: #fff;
 }
 
@@ -3426,7 +3445,10 @@ video css
     transition: all 0.3s ease-out 0s;
 }
 
-.dashboard-area .dashboard-wrapper .table-wrapper thead, .dashboard-area .dashboard-wrapper .table-wrapper tbody, .dashboard-area .dashboard-wrapper .table-wrapper td, .dashboard-area .dashboard-wrapper .table-wrapper th {
+.dashboard-area .dashboard-wrapper .table-wrapper thead,
+.dashboard-area .dashboard-wrapper .table-wrapper tbody,
+.dashboard-area .dashboard-wrapper .table-wrapper td,
+.dashboard-area .dashboard-wrapper .table-wrapper th {
     border: none;
 }
 
@@ -3834,9 +3856,11 @@ video css
     }
 }
 
+
 /*============================
 footer css
 ============================= */
+
 .footer-area {
     background: #ffffff;
     color: var(--black);
@@ -3937,15 +3961,18 @@ footer css
     padding: 25px 0;
 }
 
-.footer-area .copy-right .left p, .footer-area .copy-right .right p {
+.footer-area .copy-right .left p,
+.footer-area .copy-right .right p {
     color: var(--black);
 }
 
-.footer-area .copy-right .left a, .footer-area .copy-right .right a {
+.footer-area .copy-right .left a,
+.footer-area .copy-right .right a {
     color: #fff;
 }
 
-.footer-area .copy-right .left a:hover, .footer-area .copy-right .right a:hover {
+.footer-area .copy-right .left a:hover,
+.footer-area .copy-right .right a:hover {
     color: var(--main-color);
 }
 

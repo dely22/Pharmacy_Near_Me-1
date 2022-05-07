@@ -9,36 +9,66 @@
                     <div class="text-center">
                         <h3 class="heading">انشاء<span>حساب</span></h3>
                     </div>
+                    
+                    @if (session('error'))
+                        <div class="alert alert-danger" role="alert">
+                            {{ session('error') }}
+                        </div>
+                    @endif
                     @if (session('status'))
-                        <div class="alert alert-danger alert-dismissible" role="alert">
+                        <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
                     @endif
-                    <form  action="{{ route('register') }}" method="POST">
+                    <form action="{{ route('register') }}" method="POST">
                         @csrf
                         <div class="p-4">
 
                             <div class="input-group mb-3">
                                 <span class="input-group-text rounded" style="background-color: var(--main-color)"><i
                                         class="bi bi-person-plus-fill text-white"></i></span>
-                                <input type="text" class="form-control rounded" placeholder="اسم المستخدم" name="name" required>
+                                <input value="{{ old('name') }}" type="text" placeholder="اسم المستخدم" name="name"
+                                     class="form-control rounded @error('name') border-danger @enderror">
+                                @error('name')
+                                    <div class="invalid-feedback d-block">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
 
                             <div class="input-group mb-3">
                                 <span class="input-group-text rounded" style="background-color: var(--main-color)"><i
                                         class="bi bi-envelope-fill text-white"></i></span>
-                                <input type="email" class="form-control rounded" placeholder="example@gmail.com"  name="email" required>
+                                <input type="email" value="{{ old('email') }}" placeholder="example@gmail.com"
+                                    name="email"  class="form-control rounded @error('email') border-danger @enderror">
+                                @error('email')
+                                    <div class="invalid-feedback d-block">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
                             <div class="input-group mb-3 rounded">
-                                <span class="input-group-text rounded"style="background-color: var(--main-color)"><i
+                                <span class="input-group-text rounded" style="background-color: var(--main-color)"><i
                                         class="bi bi-key-fill text-white"></i></span>
-                                <input type="password" class=" rounded form-control" placeholder="كلمة المرور" name="password" required>
+                                <input type="password" placeholder="كلمة المرور" name="password" 
+                                    class="form-control rounded @error('password') border-danger @enderror">
+                                @error('password')
+                                    <div class="invalid-feedback d-block">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
 
                             <div class="input-group mb-3 rounded" id="show_hide_password">
-                                <span class="input-group-text rounded"style="background-color: var(--main-color)"><i
+                                <span class="input-group-text rounded" style="background-color: var(--main-color)"><i
                                         class="bi bi-key-fill text-white"></i></span>
-                                <input type="password" class=" rounded form-control" placeholder="تأكيد كلمة المرور "  name="password_confirmation" required>
+                                <input type="password" class=" rounded form-control" placeholder="تأكيد كلمة المرور "
+                                    name="confirmed" >
+                                    @error('confirmed')
+                                    <div class="invalid-feedback d-block">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                                 {{-- hidde / show pass --}}
                                 {{-- <div class="input-group-addon align-content-end">
                                     <a href="">
@@ -49,12 +79,14 @@
 
 
                             <div class="input-group mb-3 rounded">
-                            <div class="dropdown col-12">
-                                <select name="user_type" onchange="changePharmacy()" class="col-12 rounded form-control">
-                                    <option value="client">مستخدم</option>
-                                    <option value="pharmacy">صيدلي</option>
-                                </select>
-                            </div> </div>
+                                <div class="dropdown col-12">
+                                    <select name="user_type" onchange="changePharmacy()"
+                                        class="col-12 rounded form-control">
+                                        <option value="client">مستخدم</option>
+                                        <option value="pharmacy">صيدلي</option>
+                                    </select>
+                                </div>
+                            </div>
 
 
 
@@ -73,9 +105,11 @@
                             <div class="col-xl-12 col-md-12">
                                 <div class="footer-widget about">
                                     <ul class="social text-center d-flex justify-content-center">
-                                    <p class="text-center ml-1">أو يمكنك التسجيل عبر  </p>
-                                        <li class="m-1"><a href="{{ route('facebook-client') }}"><i class="lni lni-facebook-filled btn-submit p-1"></i></a></li>
-                                        <li class="m-1"><a href="{{ route('google-client') }}"><i class="lni lni-google btn-submit p-1"></i></a></li>
+                                        <p class="text-center ml-1">أو يمكنك التسجيل عبر </p>
+                                        <li class="m-1"><a href="{{ route('facebook-client') }}"><i
+                                                    class="lni lni-facebook-filled btn-submit p-1"></i></a></li>
+                                        <li class="m-1"><a href="{{ route('google-client') }}"><i
+                                                    class="lni lni-google btn-submit p-1"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -86,8 +120,8 @@
         </div>
     </div>
 
-{{-- hidde / show pass --}}
-{{-- <script>
+    {{-- hidde / show pass --}}
+    {{-- <script>
     $(document).ready(function() {
     $("#show_hide_password a").on('click', function(event) {
         event.preventDefault();
@@ -103,7 +137,7 @@
     });
 });
 </script> --}}
- @stop
+@stop
 
 
 

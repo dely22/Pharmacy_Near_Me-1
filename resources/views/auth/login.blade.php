@@ -32,12 +32,22 @@
                             <div class="input-group mb-3">
                                 <span class="input-group-text rounded" style="background-color: var(--main-color)"><i
                                         class="bi bi-envelope-fill text-white"></i></span>
-                                <input type="email" class="form-control rounded" placeholder="الايميل"  name="email" required>
+                                <input type="email" value="{{ old('email') }}" placeholder="الايميل"  name="email" class="form-control rounded @error('email') border-danger @enderror">
+                                @error('email')
+                                    <div class="invalid-feedback d-block">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
                             <div class="input-group mb-3 rounded">
                                 <span class="input-group-text rounded"style="background-color: var(--main-color)"><i
                                         class="bi bi-key-fill text-white"></i></span>
-                                <input type="password" class=" rounded form-control" placeholder="كلمة المرور" name="password" required>
+                                <input type="password"  placeholder="كلمة المرور" name="password" class="form-control rounded @error('password') border-danger @enderror">
+                                 @error('password')
+                                    <div class="invalid-feedback d-block">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
 
                             <button class="btn-submit radius text-center p-2 col-12 mt-2" type="submit">
