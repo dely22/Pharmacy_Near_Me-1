@@ -14,27 +14,27 @@
 
     <ul class="menu-inner py-1">
     <li class="menu-item">
-    <a href="" class="menu-link">
+    <a href="{{ route('') }}" class="menu-link">
         <div data-i18n="Account">الرسائل</div>
     </a>
     </li>
     <li class="menu-item">
-    <a href="" class="menu-link">
+    <a href="{{ route('') }}" class="menu-link">
         <div data-i18n="Account">ادارة الطلبات</div>
     </a>
     </li>
     <li class="menu-item">
-    <a href="" class="menu-link">
+    <a href="{{ route('') }}" class="menu-link">
         <div data-i18n="Account">الاشعارات</div>
     </a>
     </li>
     <li class="menu-item">
-    <a href="" class="menu-link">
+    <a href="{{ route('') }}" class="menu-link">
         <div data-i18n="Account">الشكاوي</div>
     </a>
     </li>
     <li class="menu-item">
-    <a href="pharmacy-accunt.html" class="menu-link">
+    <a href="{{ route('pharmacy-accunt') }}" class="menu-link">
         <div data-i18n="Account">البروفايل</div>
     </a>
     </li>

@@ -8,19 +8,7 @@ id="layout-navbar">
 </div>
 
 <div class="navbar-nav d-flex justify-content-center" id="navbar-collapse">
-    {{-- <button type="button" class="btn btn-icon btn-secondary navbar-nav align-items-center">
-        <span class="tf-icons bx bx-bell"></span>
-    </button> --}}
-    <!-- Search -->
-    <!-- <div class="navbar-nav align-items-center">
-    <div class="nav-item d-flex align-items-center">
-        <span>هديل جميل</span>
-    </div>
-    </div> -->
-    <!-- /Search -->
-
     <ul class="navbar-nav flex-row align-items-center me-auto">
-
 
     <!-- User -->
     <li class="nav-item navbar-dropdown dropdown-user dropdown" style="direction: rtl;">
